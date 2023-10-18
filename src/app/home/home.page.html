@@ -1,15 +1,17 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Conversor de Moneda Internacional
+      <!-- titulo -->
+      Conversor a binario
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
+<!-- diseño entrada de la app -->
   <div class="ion-padding">
-    <ion-input type="number" min="1" placeholder="Introduce una cantidad en euros">
-    </ion-input>
-    <ion-buttom expand="block">Convertir</ion-buttom>
+    <ion-label name="entrada">Pasar número a binario</ion-label>
+    <ion-input type="number" placeholder="Intoduzca un número"></ion-input>
+    <ionic-buttom expand="block">Convertir</ionic-buttom>
   </div>
 </ion-content>
